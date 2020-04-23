@@ -1,0 +1,17 @@
+{
+  "name": "producer",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node src/index.js"
+  },
+  "author": "Nelson Wenner",
+  "license": "ISC",
+  "dependencies": {
+    "amqplib": "^0.5.5",
+    "death": "^1.1.0",
+    "dotenv": "^8.2.0"
+  }
+}
