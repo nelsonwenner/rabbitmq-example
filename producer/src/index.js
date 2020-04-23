@@ -1,3 +1,3 @@
 const mq = require('./modules/core/controller/rabbitmq');
 
-mq.publish('micro', 'test', 'Hi, Nelson!')
+mq.publish('my_exchange', 'test', 'Hi, Nelson!')
