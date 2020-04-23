@@ -2,6 +2,8 @@
     RABBITMQ - SYSTEM MENSSAGING
 </h1>
 
+#### Example of using messaging to communicate between systems using queues.
+
 ### Prerequisites
 * Docker Compose version (1.25.4)
 * Docker version (19.03.8)
@@ -52,5 +54,25 @@ $ npm run start
 
 $ npm run start
 ```
+## How it works
+
+<h1 align="center">
+  <img src="https://user-images.githubusercontent.com/40550247/80135937-5f053280-8577-11ea-9810-196088c5ab66.png"/>
+</h1>
+
+- **Producer**
+    * The guy who will send the message, data.
+
+- **Exchange**
+    * Responsible for receiving these messages, and deciding which queue this message will be sent to. Remembering when you work with applications, you don't work with just one queue, you can have queues of everything that is different and types, and several exchanges.
+
+- **Queue**
+    * The queue stores messages and dispatches them.
+
+- **Consumer**
+    * The consumer has a process that listens to everything that arrives in the queue. In this case, he removes the messages from the queue, and gives a `ACK: acknowledge`.
+
+---
+
 
 
