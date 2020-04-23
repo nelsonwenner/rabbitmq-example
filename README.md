@@ -2,7 +2,7 @@
     RABBITMQ - SYSTEM MENSSAGING
 </h1>
 
-#### Example of using messaging to communicate between systems using queues.
+#### Example of using messages to communicate between systems based on microservices using queues.
 
 ### Prerequisites
 * Docker Compose version (1.25.4)
@@ -54,7 +54,7 @@ $ npm run start
 
 $ npm run start
 ```
-## How it works
+## How it works ?
 
 <h1 align="center">
   <img src="https://user-images.githubusercontent.com/40550247/80135937-5f053280-8577-11ea-9810-196088c5ab66.png"/>
